@@ -1,6 +1,6 @@
 {
   "name": "@dhruvtoprani/resurrect",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Agent skill and local CLI for turning abandoned repositories into evidence-backed product decisions and safe comeback branches.",
   "license": "MIT",
   "type": "module",

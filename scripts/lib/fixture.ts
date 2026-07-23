@@ -47,7 +47,7 @@ console.log("repovision ok");
 `);
   write(join(root, ".env.example"), "GITHUB_TOKEN=\nDATABASE_URL=\n");
 
-  gitOk(root, ["init"]);
+  gitOk(root, ["init", "-b", "main"]);
   gitOk(root, ["config", "user.name", "Resurrect Demo"]);
   gitOk(root, ["config", "user.email", "resurrect@example.com"]);
   gitOk(root, ["add", "."]);
