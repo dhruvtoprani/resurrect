@@ -28,7 +28,7 @@
     "revival"
   ],
   "bin": {
-    "resurrect": "./bin/resurrect"
+    "resurrect": "bin/resurrect"
   },
   "files": [
     "SKILL.md",
