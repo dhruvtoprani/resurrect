@@ -1,0 +1,10 @@
+.git/
+.github/
+coverage/
+node_modules/
+npm-debug.log*
+.DS_Store
+.env
+.env.*
+RESURRECTION.md
+.resurrect/

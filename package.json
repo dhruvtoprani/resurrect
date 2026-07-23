@@ -1,0 +1,56 @@
+{
+  "name": "@dhruvtoprani/resurrect",
+  "version": "0.1.0",
+  "description": "Recover dormant repositories into evidence-backed comeback branches.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/dhruvtoprani/resurrect#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruvtoprani/resurrect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhruvtoprani/resurrect/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "agent-skill",
+    "codex",
+    "claude-code",
+    "github",
+    "repository-analysis",
+    "revival",
+    "developer-tools"
+  ],
+  "bin": {
+    "resurrect": "./scripts/resurrect.ts"
+  },
+  "files": [
+    "SKILL.md",
+    "agents",
+    "assets",
+    "references",
+    "scripts",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "resurrect": "node --experimental-strip-types scripts/resurrect.ts",
+    "demo": "node --experimental-strip-types scripts/resurrect.ts demo",
+    "scan": "node --experimental-strip-types scripts/scan-repositories.ts",
+    "collect": "node --experimental-strip-types scripts/collect-github-evidence.ts",
+    "history": "node --experimental-strip-types scripts/inspect-git-history.ts",
+    "unfinished": "node --experimental-strip-types scripts/detect-unfinished-work.ts",
+    "intent": "node --experimental-strip-types scripts/infer-intent.ts",
+    "autopsy": "node --experimental-strip-types scripts/classify-autopsy.ts",
+    "citations": "node --experimental-strip-types scripts/build-citations.ts",
+    "public": "node --experimental-strip-types scripts/generate-public-assets.ts",
+    "probe": "node --experimental-strip-types scripts/run-build-probe.ts",
+    "artifacts": "node --experimental-strip-types scripts/write-artifacts.ts",
+    "test": "node --experimental-strip-types scripts/test-resurrect.ts"
+  }
+}

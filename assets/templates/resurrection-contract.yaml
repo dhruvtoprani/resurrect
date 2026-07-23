@@ -1,0 +1,24 @@
+product:
+  user: ""
+  outcome: ""
+
+preserve: []
+remove: []
+
+milestone_zero:
+  description: ""
+
+definition_of_done:
+  - clean installation succeeds
+  - build or test status is documented
+  - one vertical slice acceptance check is executable
+  - unresolved blockers are recorded
+
+time_budget: ""
+verdict: ""
+branch: ""
+
+owner_approval:
+  approved: false
+  approved_by: ""
+  approved_at: null

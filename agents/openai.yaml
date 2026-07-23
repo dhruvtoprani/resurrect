@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resurrect"
+  short_description: "Recover dormant repositories into working comeback branches."
+  default_prompt: "Use $resurrect to start an intake-first resurrection for this repository: ask clarifying questions, analyze evidence, compare what changed, produce a Resurrection Contract, prepare Milestone Zero, and generate a shareable RESURRECTION.md."
