@@ -25,12 +25,13 @@
     "developer-tools"
   ],
   "bin": {
-    "resurrect": "./scripts/resurrect.ts"
+    "resurrect": "./bin/resurrect"
   },
   "files": [
     "SKILL.md",
     "agents",
     "assets",
+    "bin",
     "references",
     "scripts",
     "package.json"
