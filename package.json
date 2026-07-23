@@ -1,7 +1,7 @@
 {
   "name": "@dhruvtoprani/resurrect",
   "version": "0.1.0",
-  "description": "Recover dormant repositories into evidence-backed comeback branches.",
+  "description": "Agent skill and local CLI for turning abandoned repositories into evidence-backed product decisions and safe comeback branches.",
   "license": "MIT",
   "type": "module",
   "homepage": "https://github.com/dhruvtoprani/resurrect#readme",
@@ -21,8 +21,11 @@
     "claude-code",
     "github",
     "repository-analysis",
-    "revival",
-    "developer-tools"
+    "repository-recovery",
+    "codebase-modernization",
+    "developer-tools",
+    "product-decisions",
+    "revival"
   ],
   "bin": {
     "resurrect": "./bin/resurrect"
