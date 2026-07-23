@@ -11,42 +11,7 @@ Resurrect is a local-first agent skill and CLI for developers who have old repos
 
 It does not stop at a report. After owner approval, Resurrect creates a dedicated comeback branch and prepares a bounded **Milestone Zero** that can prove whether the project deserves another life.
 
-**Links:** [60-second demo](#60-second-demo) · [Workflow](#workflow) · [Generated artifacts](#generated-artifacts) · [Safety model](#safety-model) · [Agent skill](#agent-skill) · [Development](#development)
-
----
-
-## 60-Second Demo
-
-[![Watch the Resurrect demo](https://raw.githubusercontent.com/dhruvtoprani/resurrect/main/docs/media/resurrect-demo-poster.png)](https://raw.githubusercontent.com/dhruvtoprani/resurrect/main/docs/media/resurrect-demo.mp4)
-
-[Watch the 42-second MP4 demo](https://raw.githubusercontent.com/dhruvtoprani/resurrect/main/docs/media/resurrect-demo.mp4) to see Resurrect move from install, to clarifying questions, to evidence gathering, to a guarded comeback branch.
-
-Requires Node.js 22 or newer.
-
-```bash
-npm install -g @dhruvtoprani/resurrect
-resurrect demo
-```
-
-The bundled demo creates a synthetic abandoned repository and runs the complete guarded workflow:
-
-```text
-BEFORE
-Missing external service or secret
-Unclear product direction
-No safe execution plan
-
-VERDICT
-REVIVE
-
-AFTER
-Branch: resurrect/2026-07-23-milestone-zero
-Contract: approval-gated
-Proof: build and test probe passes
-Artifacts: RESURRECTION.md + .resurrect/
-```
-
-No account, hosted service, or API key is required for the demo.
+**Links:** [Workflow](#workflow) · [Generated artifacts](#generated-artifacts) · [Safety model](#safety-model) · [Agent skill](#agent-skill) · [Development](#development)
 
 ---
 
