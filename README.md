@@ -17,10 +17,14 @@ It does not stop at a report. After owner approval, Resurrect creates a dedicate
 
 ## 60-Second Demo
 
+[![Watch the Resurrect demo](https://raw.githubusercontent.com/dhruvtoprani/resurrect/main/docs/media/resurrect-demo-poster.png)](https://raw.githubusercontent.com/dhruvtoprani/resurrect/main/docs/media/resurrect-demo.mp4)
+
+[Watch the 42-second MP4 demo](https://raw.githubusercontent.com/dhruvtoprani/resurrect/main/docs/media/resurrect-demo.mp4) to see Resurrect move from install, to clarifying questions, to evidence gathering, to a guarded comeback branch.
+
 Requires Node.js 22 or newer.
 
 ```bash
-npm install -g github:dhruvtoprani/resurrect
+npm install -g @dhruvtoprani/resurrect
 resurrect demo
 ```
 
