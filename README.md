@@ -5,7 +5,8 @@ Your next product may already be half-built.
 `resurrect` is an agent skill and local CLI for turning abandoned software repositories into evidence-backed product decisions and safe comeback branches. It does not stop at a report. It reconstructs intent, diagnoses why the project stalled, compares what changed, writes a Resurrection Contract, and prepares a branch for Milestone Zero.
 
 ```bash
-npx @dhruvtoprani/resurrect demo
+npm install -g github:dhruvtoprani/resurrect
+resurrect demo
 ```
 
 ```text
@@ -33,15 +34,14 @@ Every developer has old repositories with a working half, a broken half, and a f
 
 Requires Node.js 22 or newer.
 
-```bash
-npm install -g @dhruvtoprani/resurrect
-```
-
-Or run directly:
+Install from GitHub:
 
 ```bash
-npx @dhruvtoprani/resurrect demo
+npm install -g github:dhruvtoprani/resurrect
+resurrect demo
 ```
+
+The package is also prepared for npm as `@dhruvtoprani/resurrect`; publish it with `npm publish --access public` from an authenticated npm account.
 
 For Codex, copy this repository as a skill folder named `resurrect` under your Codex skills directory. Then invoke it as `$resurrect`.
 
